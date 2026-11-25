@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-color: red;
+            animation-name: bounce;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes bounce{
+            0% {opacity: 1; background-color: aqua;}
+            50%{opacity: 0.5; background-color: blueviolet;transform: translateY(200px); box-shadow: 2px 8px 4px black;}
+            75%{opacity: 0;}
+            100%{opacity: 1; background-color: blue;}
+        }
+    </style>
+</head>
+<body>
+    <div class="ball">
+
+    </div>
+</body>
+</html>
